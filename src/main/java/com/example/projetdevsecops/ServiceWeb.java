@@ -22,6 +22,8 @@ public class ServiceWeb {
         motos.add(moto);
         moto = new Moto("DD44EE", "Ducati", 300);
         motos.add(moto);
+        moto = new Moto("EE55FF", "Test", 200);
+        motos.add(moto);
     }
 
     @GetMapping("/motos/{plateNumber}")
